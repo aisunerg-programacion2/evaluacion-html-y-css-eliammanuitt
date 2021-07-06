@@ -1,31 +1,129 @@
 *{
     margin: 1rem;
+
 }
 
+/* Card */
+#principal{
+    border: 3px solid wheat;
+    background-color: #2F4F4F;
+    color: black;
+}
+#img{
+    width:300px;
+    height: 300px;
+}
+#d-img{
+    background-color: #2F4F4F;
+
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
 #personal{
+    text-align: justify;
     font-family: serif; 
     font-size: 20px;
 }
+#phone{
+    text-align: justify;
+    font-family: serif; 
+    font-size: 20px;
+}
+#nombre{
+    text-align: left;
+}
 
+#center{
+    text-align: center;
+    margin-top: 1rem;
+}
+#curriculum{
+    background-color: #2F4F4F;
+     
+    text-align: left;
+    border: 3px solid wheat;
+}
+
+#secundario{
+    background-color: #FF8C00;
+    border: 3px solid wheat;
+}
+#header{
+    display: grid;
+    grid-template-columns: 100%;
+}
+#footer{
+    background-color: #2F4F4F;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 3px solid wheat;
+}
+
+/* Card into */
+#card1{
+    border: 3px solid wheat;
+
+
+}
+#cursos{
+    font-family: serif; 
+    font-size: 20px;
+    border: 3px solid wheat;
+}
+
+#card2{
+    border: 3px solid wheat;
+}
 #educacion{
     font-family: serif; 
     font-size: 20px;
+    border: 3px solid wheat;
 }
+#card3{
+    border: 3px solid wheat;
+}   
 #laboral{
     font-family: serif; 
     font-size: 20px;
+    border: 3px solid wheat;
+
 }
-#aprendizaje{
+#card4{
+    border: 3px solid wheat;
+    background-color: #FF8C00;
+    
+
+}
+
+#aprendizaje1{
     font-family: serif; 
     font-size: 20px;
+    border: 3px solid wheat;
+    background-color: #2F4F4F;
 }
-#img{
-    width: 15rem;
-    height: 15rem;
-    align-self: start;
+
+#card5{
+    border: 3px solid wheat;
+    background-color: #2F4F4F;
+
 }
-#title{
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+
+#conocimientos{
+    font-family: serif; 
+    font-size: 20px;
+    border: 3px solid wheat;
+    background-color: white;
+
+}
+
+#card6{
+    background-color: #2F4F4F;
+    border: 3px solid wheat;
+}
+#extras{
+    background-color: white;
+
+    font-family: serif; 
+    font-size: 20px;
+    border: 3px solid wheat;
 }
